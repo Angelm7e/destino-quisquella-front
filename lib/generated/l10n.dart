@@ -1,0 +1,189 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'intl/messages_all.dart';
+
+// **************************************************************************
+// Generator: Flutter Intl IDE plugin
+// Made by Localizely
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, lines_longer_than_80_chars
+// ignore_for_file: join_return_with_assignment, prefer_final_in_for_each
+// ignore_for_file: avoid_redundant_argument_values, avoid_escaping_inner_quotes
+
+class S {
+  S();
+
+  static S? _current;
+
+  static S get current {
+    assert(_current != null,
+        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+    return _current!;
+  }
+
+  static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
+
+  static Future<S> load(Locale locale) {
+    final name = (locale.countryCode?.isEmpty ?? false)
+        ? locale.languageCode
+        : locale.toString();
+    final localeName = Intl.canonicalizedLocale(name);
+    return initializeMessages(localeName).then((_) {
+      Intl.defaultLocale = localeName;
+      final instance = S();
+      S._current = instance;
+
+      return instance;
+    });
+  }
+
+  static S of(BuildContext context) {
+    final instance = S.maybeOf(context);
+    assert(instance != null,
+        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+    return instance!;
+  }
+
+  static S? maybeOf(BuildContext context) {
+    return Localizations.of<S>(context, S);
+  }
+
+  /// `Destino Quisquella`
+  String get appTitle {
+    return Intl.message(
+      'Destino Quisquella',
+      name: 'appTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `iniciar sesión`
+  String get loginTitle {
+    return Intl.message(
+      'iniciar sesión',
+      name: 'loginTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Destino Quisquella`
+  String get loginSubtitle {
+    return Intl.message(
+      'Destino Quisquella',
+      name: 'loginSubtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get emailLabel {
+    return Intl.message(
+      'Email',
+      name: 'emailLabel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your email`
+  String get emailHint {
+    return Intl.message(
+      'Enter your email',
+      name: 'emailHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contraseña`
+  String get passwordLabel {
+    return Intl.message(
+      'Contraseña',
+      name: 'passwordLabel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your contraseña`
+  String get passwordHint {
+    return Intl.message(
+      'Enter your contraseña',
+      name: 'passwordHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Olvidaste tu contraseña?`
+  String get forgotPassword {
+    return Intl.message(
+      '¿Olvidaste tu contraseña?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `iniciar sesión`
+  String get loginButton {
+    return Intl.message(
+      'iniciar sesión',
+      name: 'loginButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No tengo una cuenta? `
+  String get noAccountPrompt {
+    return Intl.message(
+      'No tengo una cuenta? ',
+      name: 'noAccountPrompt',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registrarse`
+  String get signUp {
+    return Intl.message(
+      'Registrarse',
+      name: 'signUp',
+      desc: '',
+      args: [],
+    );
+  }
+}
+
+class AppLocalizationDelegate extends LocalizationsDelegate<S> {
+  const AppLocalizationDelegate();
+
+  List<Locale> get supportedLocales {
+    return const <Locale>[
+      Locale.fromSubtags(languageCode: 'es', countryCode: 'DO'),
+      Locale.fromSubtags(languageCode: 'en'),
+    ];
+  }
+
+  @override
+  bool isSupported(Locale locale) => _isSupported(locale);
+  @override
+  Future<S> load(Locale locale) => S.load(locale);
+  @override
+  bool shouldReload(AppLocalizationDelegate old) => false;
+
+  bool _isSupported(Locale locale) {
+    for (var supportedLocale in supportedLocales) {
+      if (supportedLocale.languageCode == locale.languageCode) {
+        return true;
+      }
+    }
+    return false;
+  }
+}

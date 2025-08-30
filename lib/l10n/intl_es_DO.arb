@@ -1,0 +1,13 @@
+{
+  "appTitle": "Destino Quisquella",
+  "loginTitle": "iniciar sesión",
+  "loginSubtitle": "Destino Quisquella",
+  "emailLabel": "Email",
+  "emailHint": "Enter your email",
+  "passwordLabel": "Contraseña",
+  "passwordHint": "Enter your contraseña",
+  "forgotPassword": "¿Olvidaste tu contraseña?",
+  "loginButton": "iniciar sesión",
+  "noAccountPrompt": "No tengo una cuenta? ",
+  "signUp": "Registrarse"
+}

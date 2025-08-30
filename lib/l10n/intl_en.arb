@@ -1,0 +1,13 @@
+{
+  "appTitle": "Destino Quisquella",
+  "loginTitle": "Login",
+  "loginSubtitle": "Welcome back! Please enter your details.",
+  "emailLabel": "Email",
+  "emailHint": "Enter your email",
+  "passwordLabel": "Password",
+  "passwordHint": "Enter your password",
+  "forgotPassword": "Forgot Password?",
+  "loginButton": "Login",
+  "noAccountPrompt": "Don't have an account? ",
+  "signUp": "Sign Up"
+}
