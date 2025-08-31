@@ -31,7 +31,7 @@ class AppTypography {
         fontSize: 16,
         fontWeight: FontWeight.normal,
         color: AppColors.lightTextPrimary),
-    bodyMedium: TextStyle(fontSize: 14, color: AppColors.lightTextSecondary),
+    bodyMedium: TextStyle(fontSize: 16, color: AppColors.lightTextSecondary),
     labelSmall: TextStyle(fontSize: 12, color: AppColors.lightTextSecondary),
   ).apply(fontFamily: googleFontFamily);
 

@@ -13,7 +13,7 @@ class FavoriteScreen extends StatefulWidget {
 class _FavoriteScreenState extends State<FavoriteScreen> {
   @override
   Widget build(BuildContext context) {
-    return DTScaffoldWidget(
+    return DQScaffoldWidget(
         currentIndex: 2, body: Column(children: [Text("Favorite Screen")]));
   }
 }

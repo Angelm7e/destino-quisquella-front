@@ -8,6 +8,7 @@ class AppTheme {
     brightness: Brightness.light,
     primaryColor: AppColors.lightPrimary,
     scaffoldBackgroundColor: AppColors.lightBackground,
+
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.lightPrimary,
       brightness: Brightness.light,
@@ -16,7 +17,7 @@ class AppTheme {
       // surface: AppColors.lightBackground,
       onPrimary: AppColors.lightTextPrimary,
       onSurface: AppColors.lightTextPrimary,
-      onBackground: AppColors.lightTextPrimary,
+      // onBackground: AppColors.lightTextPrimary,
       onSurfaceVariant: AppColors.lightTextPrimary,
       onError: AppColors.lightTextPrimary,
       // onErrorForeground: AppColors.lightTextPrimary,
@@ -50,7 +51,7 @@ class AppTheme {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       ),
     ),
-    iconTheme: const IconThemeData(color: AppColors.lightTextPrimary),
+    iconTheme: const IconThemeData(color: AppColors.lightTextSecondary),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.lightPrimary,
       foregroundColor: Colors.white,
@@ -59,6 +60,28 @@ class AppTheme {
     fontFamily: AppTypography.googleFontFamily,
     useMaterial3: true,
     bottomAppBarTheme: BottomAppBarTheme(color: AppColors.lightSurface),
+    // inputDecorationTheme: const InputDecorationTheme(
+    //   border: OutlineInputBorder(
+    //     borderRadius: BorderRadius.all(Radius.circular(12)),
+    //     borderSide: BorderSide.none,
+    //   ),
+    //   enabledBorder: OutlineInputBorder(
+    //     borderRadius: BorderRadius.all(Radius.circular(12)),
+    //     borderSide: BorderSide.none,
+    //   ),
+    //   focusedBorder: OutlineInputBorder(
+    //     borderRadius: BorderRadius.all(Radius.circular(12)),
+    //     borderSide: BorderSide.none,
+    //   ),
+    //   errorBorder: OutlineInputBorder(
+    //     borderRadius: BorderRadius.all(Radius.circular(12)),
+    //     borderSide: BorderSide.none,
+    //   ),
+    //   disabledBorder: OutlineInputBorder(
+    //     borderRadius: BorderRadius.all(Radius.circular(12)),
+    //     borderSide: BorderSide.none,
+    //   ),
+    // ),
   );
 
   static ThemeData darkTheme = ThemeData(

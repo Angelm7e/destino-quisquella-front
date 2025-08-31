@@ -32,11 +32,10 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         routes: routes,
         debugShowCheckedModeBanner: false,
-        // title: 'Destino Quisqueya',
-        theme: AppTheme.lightTheme, // Usa el tema claro con Imprima
-        darkTheme: AppTheme.darkTheme, // Usa el tema oscuro con Imprima
-        themeMode: ThemeMode.system, // Respeta el modo del sistema
-        // LocalizationsDelegate
+        theme: AppTheme.lightTheme,
+        darkTheme: AppTheme.darkTheme,
+        themeMode: ThemeMode.system,
+        // LocalizationsDelegate this is the configuration part for i18n
         localizationsDelegates: const [
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,

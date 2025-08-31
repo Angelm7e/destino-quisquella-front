@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int currentIndex = 0;
   @override
   Widget build(BuildContext context) {
-    return DTScaffoldWidget(
+    return DQScaffoldWidget(
       currentIndex: currentIndex,
       body: Column(
         children: [Text("Home screen")],

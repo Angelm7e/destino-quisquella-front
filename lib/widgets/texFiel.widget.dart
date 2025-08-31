@@ -6,7 +6,7 @@ class DQTextField extends StatefulWidget {
       required this.controller,
       required this.hintText,
       required this.labelText,
-      required this.prefixIcon,
+      this.prefixIcon,
       this.suffixIcon,
       this.obscureText = false,
       this.keyboardType = TextInputType.text});
@@ -14,7 +14,7 @@ class DQTextField extends StatefulWidget {
   final TextEditingController controller;
   final String hintText;
   final String labelText;
-  final Icon prefixIcon;
+  final Icon? prefixIcon;
   final Icon? suffixIcon;
   final bool obscureText;
   final TextInputType keyboardType;

@@ -8,6 +8,18 @@
   "passwordHint": "Enter your password",
   "forgotPassword": "Forgot Password?",
   "loginButton": "Login",
-  "noAccountPrompt": "Don't have an account? ",
-  "signUp": "Sign Up"
+  "noAccountPrompt": "Sign Up",
+  "signUp": "Sign Up",
+  "favorites": "Favorites",
+  "settings": "Settings",
+  "editProfile": "Edit Profile",
+  "logout": "Logout",
+  "logoutConfirmation": "¿Are you sure you want to logout?",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "home": "Home",
+  "search": "Search",
+  "profile": "Profile",
+  "closeToYou": "Near by",
+  "myReviews": "My Reviews"
 }

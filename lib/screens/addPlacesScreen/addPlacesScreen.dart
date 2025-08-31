@@ -13,7 +13,7 @@ class AddPlacesScreen extends StatefulWidget {
 class _AddPlacesScreenState extends State<AddPlacesScreen> {
   @override
   Widget build(BuildContext context) {
-    return DTScaffoldWidget(
+    return DQScaffoldWidget(
         currentIndex: 5,
         body: Column(
           children: [Text("Add Places Screen")],

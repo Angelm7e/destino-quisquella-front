@@ -23,19 +23,32 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "appTitle": MessageLookupByLibrary.simpleMessage("Destino Quisquella"),
-        "emailHint": MessageLookupByLibrary.simpleMessage("Enter your email"),
-        "emailLabel": MessageLookupByLibrary.simpleMessage("Email"),
+        "cancel": MessageLookupByLibrary.simpleMessage("Cancelar"),
+        "closeToYou": MessageLookupByLibrary.simpleMessage("Cerca de ti"),
+        "confirm": MessageLookupByLibrary.simpleMessage("Confirmar"),
+        "editProfile": MessageLookupByLibrary.simpleMessage("Editar perfil"),
+        "emailHint": MessageLookupByLibrary.simpleMessage("Correo electronico"),
+        "emailLabel":
+            MessageLookupByLibrary.simpleMessage("Correo electronico"),
+        "favorites": MessageLookupByLibrary.simpleMessage("Favoritos"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("¿Olvidaste tu contraseña?"),
-        "loginButton": MessageLookupByLibrary.simpleMessage("iniciar sesión"),
+        "home": MessageLookupByLibrary.simpleMessage("Inicio"),
+        "loginButton": MessageLookupByLibrary.simpleMessage("Iniciar sesión"),
         "loginSubtitle":
             MessageLookupByLibrary.simpleMessage("Destino Quisquella"),
         "loginTitle": MessageLookupByLibrary.simpleMessage("iniciar sesión"),
-        "noAccountPrompt":
-            MessageLookupByLibrary.simpleMessage("No tengo una cuenta? "),
+        "logout": MessageLookupByLibrary.simpleMessage("Cerrar sesión"),
+        "logoutConfirmation": MessageLookupByLibrary.simpleMessage(
+            "¿Está seguro que desea cerrar sesión?"),
+        "myReviews": MessageLookupByLibrary.simpleMessage("Mis Reviews"),
+        "noAccountPrompt": MessageLookupByLibrary.simpleMessage("Registrarse"),
         "passwordHint":
-            MessageLookupByLibrary.simpleMessage("Enter your contraseña"),
+            MessageLookupByLibrary.simpleMessage("Digite su contraseña"),
         "passwordLabel": MessageLookupByLibrary.simpleMessage("Contraseña"),
+        "profile": MessageLookupByLibrary.simpleMessage("Perfil"),
+        "search": MessageLookupByLibrary.simpleMessage("Buscar"),
+        "settings": MessageLookupByLibrary.simpleMessage("Configuraciones"),
         "signUp": MessageLookupByLibrary.simpleMessage("Registrarse")
       };
 }

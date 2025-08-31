@@ -13,7 +13,7 @@ class CloseToYouScreen extends StatefulWidget {
 class _CloseToYouScreenState extends State<CloseToYouScreen> {
   @override
   Widget build(BuildContext context) {
-    return DTScaffoldWidget(
+    return DQScaffoldWidget(
         currentIndex: 1,
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.center,

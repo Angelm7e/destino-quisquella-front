@@ -1,3 +1,4 @@
+import 'package:destino_quisquella/generated/l10n.dart';
 import 'package:destino_quisquella/screens/closeToYouScreen/closseToYouScreen.dart';
 import 'package:destino_quisquella/screens/favoriteScreen/favoriteScreem.dart';
 import 'package:destino_quisquella/screens/home/homeScreen.dart';
@@ -20,7 +21,9 @@ class CustomBottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bgColor = isDark ? AppColors.darkSurface : AppColors.lightSurface;
+    final bgColor = isDark
+        ? AppColors.darkSurface
+        : const Color.fromARGB(255, 240, 239, 239);
 
     return BottomAppBar(
       shape: const CircularNotchedRectangle(),
@@ -32,26 +35,26 @@ class CustomBottomNavBar extends StatelessWidget {
         children: [
           _buildNavItem(context,
               icon: Icons.home,
-              label: "Inicio",
+              label: S.of(context).home,
               isActive: currentIndex == 0, onTap: () {
             Navigator.pushNamed(context, HomeScreen.routeName);
           }),
           _buildNavItem(context,
               icon: Icons.location_on,
-              label: "Cerca de ti",
+              label: S.of(context).closeToYou,
               isActive: currentIndex == 1, onTap: () {
             Navigator.pushNamed(context, CloseToYouScreen.routeName);
           }),
           const SizedBox(width: 48),
           _buildNavItem(context,
               icon: Icons.favorite,
-              label: "Favoritos",
+              label: S.of(context).favorites,
               isActive: currentIndex == 2, onTap: () {
             Navigator.pushNamed(context, FavoriteScreen.routeName);
           }),
           _buildNavItem(context,
               icon: Icons.person,
-              label: "Perfil",
+              label: S.of(context).profile,
               isActive: currentIndex == 3, onTap: () {
             Navigator.pushNamed(context, ProfileScreen.routeName);
           })

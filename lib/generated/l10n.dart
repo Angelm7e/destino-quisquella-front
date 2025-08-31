@@ -80,20 +80,20 @@ class S {
     );
   }
 
-  /// `Email`
+  /// `Correo electronico`
   String get emailLabel {
     return Intl.message(
-      'Email',
+      'Correo electronico',
       name: 'emailLabel',
       desc: '',
       args: [],
     );
   }
 
-  /// `Enter your email`
+  /// `Correo electronico`
   String get emailHint {
     return Intl.message(
-      'Enter your email',
+      'Correo electronico',
       name: 'emailHint',
       desc: '',
       args: [],
@@ -110,10 +110,10 @@ class S {
     );
   }
 
-  /// `Enter your contraseña`
+  /// `Digite su contraseña`
   String get passwordHint {
     return Intl.message(
-      'Enter your contraseña',
+      'Digite su contraseña',
       name: 'passwordHint',
       desc: '',
       args: [],
@@ -130,20 +130,20 @@ class S {
     );
   }
 
-  /// `iniciar sesión`
+  /// `Iniciar sesión`
   String get loginButton {
     return Intl.message(
-      'iniciar sesión',
+      'Iniciar sesión',
       name: 'loginButton',
       desc: '',
       args: [],
     );
   }
 
-  /// `No tengo una cuenta? `
+  /// `Registrarse`
   String get noAccountPrompt {
     return Intl.message(
-      'No tengo una cuenta? ',
+      'Registrarse',
       name: 'noAccountPrompt',
       desc: '',
       args: [],
@@ -155,6 +155,126 @@ class S {
     return Intl.message(
       'Registrarse',
       name: 'signUp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favoritos`
+  String get favorites {
+    return Intl.message(
+      'Favoritos',
+      name: 'favorites',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Configuraciones`
+  String get settings {
+    return Intl.message(
+      'Configuraciones',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Editar perfil`
+  String get editProfile {
+    return Intl.message(
+      'Editar perfil',
+      name: 'editProfile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cerrar sesión`
+  String get logout {
+    return Intl.message(
+      'Cerrar sesión',
+      name: 'logout',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Está seguro que desea cerrar sesión?`
+  String get logoutConfirmation {
+    return Intl.message(
+      '¿Está seguro que desea cerrar sesión?',
+      name: 'logoutConfirmation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirmar`
+  String get confirm {
+    return Intl.message(
+      'Confirmar',
+      name: 'confirm',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancelar`
+  String get cancel {
+    return Intl.message(
+      'Cancelar',
+      name: 'cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Inicio`
+  String get home {
+    return Intl.message(
+      'Inicio',
+      name: 'home',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Buscar`
+  String get search {
+    return Intl.message(
+      'Buscar',
+      name: 'search',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Perfil`
+  String get profile {
+    return Intl.message(
+      'Perfil',
+      name: 'profile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cerca de ti`
+  String get closeToYou {
+    return Intl.message(
+      'Cerca de ti',
+      name: 'closeToYou',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mis Reviews`
+  String get myReviews {
+    return Intl.message(
+      'Mis Reviews',
+      name: 'myReviews',
       desc: '',
       args: [],
     );
