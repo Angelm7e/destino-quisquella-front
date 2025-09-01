@@ -1,5 +1,5 @@
 import 'package:destino_quisquella/generated/l10n.dart';
-import 'package:destino_quisquella/screens/closeToYouScreen/closseToYouScreen.dart';
+import 'package:destino_quisquella/screens/nearBy/nearByScreen.dart';
 import 'package:destino_quisquella/screens/favoriteScreen/favoriteScreem.dart';
 import 'package:destino_quisquella/screens/home/homeScreen.dart';
 import 'package:destino_quisquella/screens/profile/profileScreen.dart';
@@ -43,7 +43,7 @@ class CustomBottomNavBar extends StatelessWidget {
               icon: Icons.location_on,
               label: S.of(context).closeToYou,
               isActive: currentIndex == 1, onTap: () {
-            Navigator.pushNamed(context, CloseToYouScreen.routeName);
+            Navigator.pushNamed(context, NearByScreen.routeName);
           }),
           const SizedBox(width: 48),
           _buildNavItem(context,

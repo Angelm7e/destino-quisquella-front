@@ -1,16 +1,16 @@
 import 'package:destino_quisquella/widgets/scaffold.widget.dart';
 import 'package:flutter/material.dart';
 
-class CloseToYouScreen extends StatefulWidget {
-  const CloseToYouScreen({super.key});
+class NearByScreen extends StatefulWidget {
+  const NearByScreen({super.key});
 
-  static const String routeName = '/closeToYouScreen';
+  static const String routeName = '/NearByScreen';
 
   @override
-  State<CloseToYouScreen> createState() => _CloseToYouScreenState();
+  State<NearByScreen> createState() => _NearByScreenState();
 }
 
-class _CloseToYouScreenState extends State<CloseToYouScreen> {
+class _NearByScreenState extends State<NearByScreen> {
   @override
   Widget build(BuildContext context) {
     return DQScaffoldWidget(

@@ -120,11 +120,21 @@ class S {
     );
   }
 
-  /// `¿Olvidaste tu contraseña?`
+  /// `¿Olvido contraseña?`
   String get forgotPassword {
     return Intl.message(
-      '¿Olvidaste tu contraseña?',
+      '¿Olvido contraseña?',
       name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Olvido correo electrónico?`
+  String get forgotEmail {
+    return Intl.message(
+      '¿Olvido correo electrónico?',
+      name: 'forgotEmail',
       desc: '',
       args: [],
     );
@@ -275,6 +285,136 @@ class S {
     return Intl.message(
       'Mis Reviews',
       name: 'myReviews',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿No tienes una cuenta?`
+  String get dontHaveAccount {
+    return Intl.message(
+      '¿No tienes una cuenta?',
+      name: 'dontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Saltar`
+  String get skip {
+    return Intl.message(
+      'Saltar',
+      name: 'skip',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Siguiente`
+  String get next {
+    return Intl.message(
+      'Siguiente',
+      name: 'next',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Comenzar`
+  String get getStarted {
+    return Intl.message(
+      'Comenzar',
+      name: 'getStarted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Descubre, Conecta y Disfruta`
+  String get discoverConectEnjoy {
+    return Intl.message(
+      'Descubre, Conecta y Disfruta',
+      name: 'discoverConectEnjoy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Explora los mejores destinos en la República Dominicana`
+  String get discoverSubtitle {
+    return Intl.message(
+      'Explora los mejores destinos en la República Dominicana',
+      name: 'discoverSubtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Explora lugares unicos cerca de ti`
+  String get explore {
+    return Intl.message(
+      'Explora lugares unicos cerca de ti',
+      name: 'explore',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Encuentra lugares increibles cerca de ti y comparte tus experiencias`
+  String get exploreSubtitle {
+    return Intl.message(
+      'Encuentra lugares increibles cerca de ti y comparte tus experiencias',
+      name: 'exploreSubtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Descubrelos mejores destinos`
+  String get discover {
+    return Intl.message(
+      'Descubrelos mejores destinos',
+      name: 'discover',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Descubre las joyas ocultas de la República Dominicana`
+  String get dicoverSubtitle {
+    return Intl.message(
+      'Descubre las joyas ocultas de la República Dominicana',
+      name: 'dicoverSubtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¡Bienvenido a Destino Quisquella!`
+  String get welcome {
+    return Intl.message(
+      '¡Bienvenido a Destino Quisquella!',
+      name: 'welcome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Comienza tu aventura hoy mismo`
+  String get startJourney {
+    return Intl.message(
+      'Comienza tu aventura hoy mismo',
+      name: 'startJourney',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Explorar sin cuenta`
+  String get noNeedAccount {
+    return Intl.message(
+      'Explorar sin cuenta',
+      name: 'noNeedAccount',
       desc: '',
       args: [],
     );

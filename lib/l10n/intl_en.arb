@@ -7,6 +7,7 @@
   "passwordLabel": "Password",
   "passwordHint": "Enter your password",
   "forgotPassword": "Forgot Password?",
+  "forgotEmail": "¿Forgot email?",
   "loginButton": "Login",
   "noAccountPrompt": "Sign Up",
   "signUp": "Sign Up",
@@ -21,5 +22,9 @@
   "search": "Search",
   "profile": "Profile",
   "closeToYou": "Near by",
-  "myReviews": "My Reviews"
+  "myReviews": "My Reviews",
+  "dontHaveAccount": "Don't have an account? ",
+  "skip": "Skip",
+  "next": "Next",
+  "getStarted": "Get Started"
 }

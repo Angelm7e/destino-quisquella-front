@@ -1,10 +1,13 @@
 import 'package:destino_quisquella/generated/l10n.dart';
 import 'package:destino_quisquella/routes/routes.dart';
 import 'package:destino_quisquella/screens/auth/login/loginScreen.dart';
+import 'package:destino_quisquella/screens/onboardingScreen/onboardingScreen.dart';
 import 'package:destino_quisquella/theme/app_theme.dart';
+import 'package:destino_quisquella/utilites/utilitis.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 // import 'package:flutter_intl_example/generated/l10n.dart';
 
 Future<void> main() async {
@@ -18,6 +21,31 @@ Future<void> main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+  Widget initialPage() {
+    return FutureBuilder<SharedPreferences>(
+      future: SharedPreferences.getInstance(),
+      builder:
+          (BuildContext context, AsyncSnapshot<SharedPreferences> snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          // Mientras se carga SharedPreferences, muestra una pantalla de carga
+          return const CircularProgressIndicator();
+        } else if (snapshot.hasError) {
+          // Maneja errores si los hay
+          return Text('Error: ${snapshot.error}');
+        } else {
+          final prefs = snapshot.data;
+          final bool? seenOnboarding =
+              prefs?.getBool(CacheAcess.showOnboarding) ?? true;
+          if (seenOnboarding!) {
+            return const OnboardingScreen();
+          } else {
+            return const LoginScreen();
+          }
+        }
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +71,7 @@ class MyApp extends StatelessWidget {
           S.delegate,
         ],
         supportedLocales: S.delegate.supportedLocales,
-        home: const LoginScreen(),
+        home: initialPage(),
       ),
     );
   }

@@ -26,12 +26,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "closeToYou": MessageLookupByLibrary.simpleMessage("Near by"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
+        "dontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Don\'t have an account? "),
         "editProfile": MessageLookupByLibrary.simpleMessage("Edit Profile"),
         "emailHint": MessageLookupByLibrary.simpleMessage("Enter your email"),
         "emailLabel": MessageLookupByLibrary.simpleMessage("Email"),
         "favorites": MessageLookupByLibrary.simpleMessage("Favorites"),
+        "forgotEmail": MessageLookupByLibrary.simpleMessage("¿Forgot email?"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+        "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
         "loginButton": MessageLookupByLibrary.simpleMessage("Login"),
         "loginSubtitle": MessageLookupByLibrary.simpleMessage(
@@ -41,6 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logoutConfirmation": MessageLookupByLibrary.simpleMessage(
             "¿Are you sure you want to logout?"),
         "myReviews": MessageLookupByLibrary.simpleMessage("My Reviews"),
+        "next": MessageLookupByLibrary.simpleMessage("Next"),
         "noAccountPrompt": MessageLookupByLibrary.simpleMessage("Sign Up"),
         "passwordHint":
             MessageLookupByLibrary.simpleMessage("Enter your password"),
@@ -48,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "search": MessageLookupByLibrary.simpleMessage("Search"),
         "settings": MessageLookupByLibrary.simpleMessage("Settings"),
-        "signUp": MessageLookupByLibrary.simpleMessage("Sign Up")
+        "signUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
+        "skip": MessageLookupByLibrary.simpleMessage("Skip")
       };
 }
