@@ -1,9 +1,9 @@
-import 'package:destino_quisquella/generated/l10n.dart';
-import 'package:destino_quisquella/routes/routes.dart';
-import 'package:destino_quisquella/screens/auth/login/loginScreen.dart';
-import 'package:destino_quisquella/screens/onboardingScreen/onboardingScreen.dart';
-import 'package:destino_quisquella/theme/app_theme.dart';
-import 'package:destino_quisquella/utilites/utilitis.dart';
+import 'package:destino_quisquella_front/generated/l10n.dart';
+import 'package:destino_quisquella_front/routes/routes.dart';
+import 'package:destino_quisquella_front/screens/auth/login/loginScreen.dart';
+import 'package:destino_quisquella_front/screens/onboardingScreen/onboardingScreen.dart';
+import 'package:destino_quisquella_front/theme/app_theme.dart';
+import 'package:destino_quisquella_front/utilites/utilitis.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -35,9 +35,9 @@ class MyApp extends StatelessWidget {
           return Text('Error: ${snapshot.error}');
         } else {
           final prefs = snapshot.data;
-          final bool? seenOnboarding =
+          final bool seenOnboarding =
               prefs?.getBool(CacheAcess.showOnboarding) ?? true;
-          if (seenOnboarding!) {
+          if (seenOnboarding) {
             return const OnboardingScreen();
           } else {
             return const LoginScreen();

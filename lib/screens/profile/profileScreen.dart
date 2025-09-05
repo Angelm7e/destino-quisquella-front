@@ -1,8 +1,8 @@
-import 'package:destino_quisquella/generated/l10n.dart';
-import 'package:destino_quisquella/screens/auth/login/loginScreen.dart';
-import 'package:destino_quisquella/screens/itineraries/itinerariesScreen.dart';
-import 'package:destino_quisquella/widgets/customProfileButtom.dart';
-import 'package:destino_quisquella/widgets/scaffold.widget.dart';
+import 'package:destino_quisquella_front/generated/l10n.dart';
+import 'package:destino_quisquella_front/screens/auth/login/loginScreen.dart';
+import 'package:destino_quisquella_front/screens/itineraries/itinerariesScreen.dart';
+import 'package:destino_quisquella_front/widgets/customProfileButtom.dart';
+import 'package:destino_quisquella_front/widgets/scaffold.widget.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {

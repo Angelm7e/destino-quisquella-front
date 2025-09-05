@@ -1,4 +1,4 @@
-import 'package:destino_quisquella/utilites/app_colors.dart';
+import 'package:destino_quisquella_front/utilites/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomProfileButtom extends StatelessWidget {

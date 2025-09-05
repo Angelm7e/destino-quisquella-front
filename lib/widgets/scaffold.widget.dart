@@ -1,11 +1,12 @@
-import 'package:destino_quisquella/screens/addPlacesScreen/addPlacesScreen.dart';
-import 'package:destino_quisquella/utilites/app_colors.dart';
-import 'package:destino_quisquella/widgets/custom_bottom_nav_bar.dart';
+import 'package:destino_quisquella_front/screens/addPlacesScreen/addPlacesScreen.dart';
+import 'package:destino_quisquella_front/utilites/app_colors.dart';
+import 'package:destino_quisquella_front/widgets/custom_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
 class DQScaffoldWidget extends StatefulWidget {
-  DQScaffoldWidget({super.key, required this.currentIndex, required this.body});
-  late final int currentIndex;
+  const DQScaffoldWidget(
+      {super.key, required this.currentIndex, required this.body});
+  final int currentIndex;
   final Widget body;
 
   @override
@@ -13,13 +14,21 @@ class DQScaffoldWidget extends StatefulWidget {
 }
 
 class _DQScaffoldWidgetState extends State<DQScaffoldWidget> {
+  late int _currentIndex;
+
+  @override
+  void initState() {
+    super.initState();
+    _currentIndex = widget.currentIndex;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: widget.body,
       bottomNavigationBar: CustomBottomNavBar(
-        currentIndex: widget.currentIndex,
-        onTabSelected: (index) => setState(() => widget.currentIndex = index),
+        currentIndex: _currentIndex,
+        onTabSelected: (index) => setState(() => _currentIndex = index),
         onFabPressed: () {},
       ),
       floatingActionButton: FloatingActionButton(

@@ -1,12 +1,12 @@
-import 'package:destino_quisquella/anonimusFlow/anonimusHome/anonimusHomeScreen.dart';
-import 'package:destino_quisquella/screens/addPlacesScreen/addPlacesScreen.dart';
-import 'package:destino_quisquella/screens/auth/signUp/signUpScreenScreen.dart';
-import 'package:destino_quisquella/screens/auth/login/loginScreen.dart';
-import 'package:destino_quisquella/screens/nearBy/nearByScreen.dart';
-import 'package:destino_quisquella/screens/favoriteScreen/favoriteScreem.dart';
-import 'package:destino_quisquella/screens/home/homeScreen.dart';
-import 'package:destino_quisquella/screens/itineraries/itinerariesScreen.dart';
-import 'package:destino_quisquella/screens/profile/profileScreen.dart';
+import 'package:destino_quisquella_front/anonimusFlow/anonimusHome/anonimusHomeScreen.dart';
+import 'package:destino_quisquella_front/screens/addPlacesScreen/addPlacesScreen.dart';
+import 'package:destino_quisquella_front/screens/auth/login/loginScreen.dart';
+import 'package:destino_quisquella_front/screens/auth/signUp/signUpScreenScreen.dart';
+import 'package:destino_quisquella_front/screens/favoriteScreen/favoriteScreem.dart';
+import 'package:destino_quisquella_front/screens/home/homeScreen.dart';
+import 'package:destino_quisquella_front/screens/itineraries/itinerariesScreen.dart';
+import 'package:destino_quisquella_front/screens/nearBy/nearByScreen.dart';
+import 'package:destino_quisquella_front/screens/profile/profileScreen.dart';
 import 'package:flutter/material.dart';
 
 final Map<String, WidgetBuilder> routes = {

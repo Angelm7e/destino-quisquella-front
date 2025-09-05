@@ -1,4 +1,4 @@
-import 'package:destino_quisquella/widgets/scaffold.widget.dart';
+import 'package:destino_quisquella_front/widgets/scaffold.widget.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {

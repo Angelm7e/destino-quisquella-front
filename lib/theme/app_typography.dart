@@ -1,4 +1,4 @@
-import 'package:destino_quisquella/utilites/app_colors.dart';
+import 'package:destino_quisquella_front/utilites/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

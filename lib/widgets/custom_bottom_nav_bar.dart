@@ -1,9 +1,9 @@
-import 'package:destino_quisquella/generated/l10n.dart';
-import 'package:destino_quisquella/screens/nearBy/nearByScreen.dart';
-import 'package:destino_quisquella/screens/favoriteScreen/favoriteScreem.dart';
-import 'package:destino_quisquella/screens/home/homeScreen.dart';
-import 'package:destino_quisquella/screens/profile/profileScreen.dart';
-import 'package:destino_quisquella/utilites/app_colors.dart';
+import 'package:destino_quisquella_front/generated/l10n.dart';
+import 'package:destino_quisquella_front/screens/favoriteScreen/favoriteScreem.dart';
+import 'package:destino_quisquella_front/screens/home/homeScreen.dart';
+import 'package:destino_quisquella_front/screens/nearBy/nearByScreen.dart';
+import 'package:destino_quisquella_front/screens/profile/profileScreen.dart';
+import 'package:destino_quisquella_front/utilites/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottomNavBar extends StatelessWidget {

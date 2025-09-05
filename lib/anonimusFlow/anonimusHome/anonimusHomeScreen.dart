@@ -13,9 +13,11 @@ class _AnonimusHomeScreenState extends State<AnonimusHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text("Anonimus Home Screen"),
-      ),
+      body: CustomScrollView(slivers: [
+        SliverAppBar(
+          flexibleSpace: FlexibleSpaceBar(),
+        )
+      ]),
     );
   }
 }

@@ -1,10 +1,10 @@
-import 'package:destino_quisquella/anonimusFlow/anonimusHome/anonimusHomeScreen.dart';
-import 'package:destino_quisquella/generated/l10n.dart';
-import 'package:destino_quisquella/screens/auth/signUp/signUpScreenScreen.dart';
-import 'package:destino_quisquella/screens/home/homeScreen.dart';
-import 'package:destino_quisquella/utilites/constants.dart';
-import 'package:destino_quisquella/widgets/buttom.widget.dart';
-import 'package:destino_quisquella/widgets/texFiel.widget.dart';
+import 'package:destino_quisquella_front/anonimusFlow/anonimusHome/anonimusHomeScreen.dart';
+import 'package:destino_quisquella_front/generated/l10n.dart';
+import 'package:destino_quisquella_front/screens/auth/signUp/signUpScreenScreen.dart';
+import 'package:destino_quisquella_front/screens/home/homeScreen.dart';
+import 'package:destino_quisquella_front/utilites/constants.dart';
+import 'package:destino_quisquella_front/widgets/buttom.widget.dart';
+import 'package:destino_quisquella_front/widgets/texFiel.widget.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {

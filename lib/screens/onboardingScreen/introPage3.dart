@@ -1,4 +1,4 @@
-import 'package:destino_quisquella/generated/l10n.dart';
+import 'package:destino_quisquella_front/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class Intropage3 extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:destino_quisquella/utilites/app_colors.dart';
+import 'package:destino_quisquella_front/utilites/app_colors.dart';
 import 'package:flutter/material.dart';
 
 import 'app_typography.dart';
@@ -35,7 +35,7 @@ class AppTheme {
       elevation: 0,
       centerTitle: true,
     ),
-    cardTheme: const CardTheme(
+    cardTheme: const CardThemeData(
       color: AppColors.lightSurface,
       elevation: 2,
       margin: EdgeInsets.all(8),
@@ -101,7 +101,7 @@ class AppTheme {
       elevation: 0,
       centerTitle: true,
     ),
-    cardTheme: const CardTheme(
+    cardTheme: const CardThemeData(
       color: AppColors.darkSurface,
       elevation: 2,
       margin: EdgeInsets.all(8),

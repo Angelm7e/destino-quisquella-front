@@ -1,4 +1,4 @@
-import 'package:destino_quisquella/utilites/app_colors.dart';
+import 'package:destino_quisquella_front/utilites/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class DQDropDownWidget extends StatefulWidget {
@@ -9,13 +9,13 @@ class DQDropDownWidget extends StatefulWidget {
   final IconData icon;
 
   const DQDropDownWidget({
-    Key? key,
+    super.key,
     required this.items,
     required this.selectedItem,
     required this.onChanged,
     this.fontSize = 25,
     this.icon = Icons.credit_card,
-  }) : super(key: key);
+  });
 
   @override
   _DQDropDownWidgetState createState() => _DQDropDownWidgetState();
@@ -248,7 +248,7 @@ class _DQDropDownWidgetState extends State<DQDropDownWidget>
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Container(
+                SizedBox(
                   width: base.width * 0.67,
                   child: Text(
                     widget.selectedItem,
