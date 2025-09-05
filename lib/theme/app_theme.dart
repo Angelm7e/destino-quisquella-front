@@ -59,7 +59,7 @@ class AppTheme {
     textTheme: AppTypography.lightTextTheme,
     fontFamily: AppTypography.googleFontFamily,
     useMaterial3: true,
-    bottomAppBarTheme: BottomAppBarTheme(color: AppColors.lightSurface),
+    bottomAppBarTheme: BottomAppBarThemeData(color: AppColors.lightSurface),
     // inputDecorationTheme: const InputDecorationTheme(
     //   border: OutlineInputBorder(
     //     borderRadius: BorderRadius.all(Radius.circular(12)),
@@ -125,6 +125,6 @@ class AppTheme {
     textTheme: AppTypography.darkTextTheme,
     fontFamily: AppTypography.googleFontFamily,
     useMaterial3: true,
-    bottomAppBarTheme: BottomAppBarTheme(color: AppColors.darkSurface),
+    bottomAppBarTheme: BottomAppBarThemeData(color: AppColors.darkSurface),
   );
 }

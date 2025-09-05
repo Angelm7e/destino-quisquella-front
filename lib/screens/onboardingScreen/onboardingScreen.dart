@@ -19,32 +19,32 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(children: [
-        PageView(
-          controller: _pageController,
-          onPageChanged: (index) {
-            setState(() {
-              isLastPage = index == 2;
-            });
-          },
-          children: [
-            Intropage1(),
-            Intropage2(),
-            Intropage3(),
-          ],
-        ),
-        Container(
+      body: Stack(
+        children: [
+          PageView(
+            controller: _pageController,
+            onPageChanged: (index) {
+              setState(() {
+                isLastPage = index == 2;
+              });
+            },
+            children: [Intropage1(), Intropage2(), Intropage3()],
+          ),
+          Container(
             alignment: Alignment(0, 0.9),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 //skip button
                 GestureDetector(
-                    onTap: () {
-                      _pageController.jumpToPage(2);
-                    },
-                    child: Text(S.of(context).skip,
-                        style: TextStyle(fontSize: 20))),
+                  onTap: () {
+                    _pageController.jumpToPage(2);
+                  },
+                  child: Text(
+                    S.of(context).skip,
+                    style: TextStyle(fontSize: 20),
+                  ),
+                ),
                 SmoothPageIndicator(
                   controller: _pageController,
                   count: 3,
@@ -64,23 +64,33 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           //     await SharedPreferences.getInstance();
                           // await prefs.setBool(CacheAcess.showOnboarding, false);
                           Navigator.pushNamedAndRemoveUntil(
-                              context, LoginScreen.routeName, (_) => false);
+                            context,
+                            LoginScreen.routeName,
+                            (_) => false,
+                          );
                         },
-                        child: Text(S.of(context).getStarted,
-                            style: TextStyle(fontSize: 20)))
+                        child: Text(
+                          S.of(context).getStarted,
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      )
                     : GestureDetector(
                         onTap: () {
                           _pageController.nextPage(
-                              duration: Duration(milliseconds: 500),
-                              curve: Curves.easeIn);
+                            duration: Duration(milliseconds: 500),
+                            curve: Curves.easeIn,
+                          );
                         },
                         child: Text(
                           S.of(context).next,
                           style: TextStyle(fontSize: 20),
-                        )),
+                        ),
+                      ),
               ],
-            ))
-      ]),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
