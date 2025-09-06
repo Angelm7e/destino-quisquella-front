@@ -135,10 +135,10 @@ class S {
     );
   }
 
-  /// `¿Olvido correo electrónico?`
+  /// `¿Olvido correo?`
   String get forgotEmail {
     return Intl.message(
-      '¿Olvido correo electrónico?',
+      '¿Olvido correo?',
       name: 'forgotEmail',
       desc: '',
       args: [],

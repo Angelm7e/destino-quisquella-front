@@ -51,9 +51,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Encuentra lugares increibles cerca de ti y comparte tus experiencias",
     ),
     "favorites": MessageLookupByLibrary.simpleMessage("Favoritos"),
-    "forgotEmail": MessageLookupByLibrary.simpleMessage(
-      "¿Olvido correo electrónico?",
-    ),
+    "forgotEmail": MessageLookupByLibrary.simpleMessage("¿Olvido correo?"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage(
       "¿Olvido contraseña?",
     ),

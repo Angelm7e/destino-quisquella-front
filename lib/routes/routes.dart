@@ -6,6 +6,8 @@ import 'package:destino_quisquella_front/screens/favoriteScreen/favoriteScreem.d
 import 'package:destino_quisquella_front/screens/home/homeScreen.dart';
 import 'package:destino_quisquella_front/screens/itineraries/itinerariesScreen.dart';
 import 'package:destino_quisquella_front/screens/nearBy/nearByScreen.dart';
+import 'package:destino_quisquella_front/screens/places/placeDetailsScreen/placeDetailScreen.dart';
+import 'package:destino_quisquella_front/screens/places/placesByCategoryScreen/placesByCategoryScreen.dart';
 import 'package:destino_quisquella_front/screens/profile/profileScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +20,8 @@ final Map<String, WidgetBuilder> routes = {
   LoginScreen.routeName: (context) => const LoginScreen(),
   SignUpScreen.routeName: (context) => const SignUpScreen(),
   ItinerariesScreen.routeName: (context) => const ItinerariesScreen(),
+  PlacesByCategoryScreen.routeName: (context) => const PlacesByCategoryScreen(),
+  PlaceDetailScreen.routeName: (context) => const PlaceDetailScreen(),
 
   // Anonimus Screens
   AnonimusHomeScreen.routeName: (context) => const AnonimusHomeScreen(),

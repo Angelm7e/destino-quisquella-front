@@ -7,7 +7,7 @@
   "passwordLabel": "Contraseña",
   "passwordHint": "Digite su contraseña",
   "forgotPassword": "¿Olvido contraseña?",
-  "forgotEmail": "¿Olvido correo electrónico?",
+  "forgotEmail": "¿Olvido correo?",
   "loginButton": "Iniciar sesión",
   "noAccountPrompt": "Registrarse",
   "signUp": "Registrarse",
