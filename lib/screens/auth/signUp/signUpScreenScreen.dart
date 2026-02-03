@@ -10,7 +10,6 @@ import 'package:destino_quisqueya_front/widgets/genderSelector.widget.dart';
 import 'package:destino_quisqueya_front/widgets/nationalitySelector.widget.dart';
 import 'package:destino_quisqueya_front/widgets/texField.widget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_flag_selector/flutter_flag_selector.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
@@ -199,24 +198,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 hintText: "confirm password",
                 labelText: "confirm password",
               ),
-              // ElevatedButton(
-              //   onPressed: () {
-              //     // getPersonByCedula("40226547350");
-              //     Navigator.push(
-              //       context,
-              //       MaterialPageRoute(builder: (context) => TestApp()),
-              //     );
-              //   },
-              //   child: Text("data"),
-              // ),
-              // DQButtom(
-              //   onTap: () {
-              //     Navigator.push(
-              //       context,
-              //     );
-              //   },
-              //   labeltext: "Label",
-              // ),
             ],
           ),
         ),

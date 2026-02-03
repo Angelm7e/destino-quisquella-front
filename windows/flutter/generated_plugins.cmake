@@ -3,6 +3,9 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  app_links
+  local_auth_windows
+  syncfusion_pdfviewer_windows
   url_launcher_windows
 )
 
